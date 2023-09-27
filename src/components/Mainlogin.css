@@ -1,0 +1,58 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .login {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    position: relative; /* Add this */
+  }
+  
+  /* Center the h2 element vertically */
+  .h2 {
+    font-size: 24px;
+    margin: 0; /* Remove margin-bottom */
+    position: absolute; /* Add this */
+    top: 10%; /* Add this */
+    left: 50%; /* Add this */
+    transform: translate(-50%, -50%); /* Add this */
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form {
+    top: 50%;
+    bottom: 20%;
+  }
+  
+  .form a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* Style the buttons */
+  .button-login {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .button-login:hover {
+    background-color: #0056b3;
+  }
+  
